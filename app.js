@@ -11,7 +11,4 @@ app.get("/about", function (req, res) {
     res.render("about");
 });
 
-/*
-app.listen(3000, function () {
-    console.log("Server is running!!");
-});*/
+app.listen(process.env.PORT, process.env.IP);
